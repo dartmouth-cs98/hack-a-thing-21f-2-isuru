@@ -24,9 +24,9 @@ The patterns form the corpus for the deep learning model I will touch on in a se
 
 Here is some information on the corpus:
 
-[corpus]
+![alt text][corpus]
 
-[corpos]: docs/corpus.png
+[corpus]: docs/corpus.png
 
 #### The model:
 
@@ -36,7 +36,7 @@ The model technically achieved a 100% accuracy after being trained on 200 epochs
 
 Here is some information on the model:
 
-[model]
+![alt text][model]
 
 [model]: docs/model.png
 
@@ -53,7 +53,7 @@ bash bot_run.sh
 ```
 This is what the app looks like:
 
-[app]
+![alt text][app]
 
 [app]: docs/app.png
 
