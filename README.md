@@ -1,4 +1,4 @@
-# Hack Technology / Project Attempted
+# Medical chatbot in Python
 
 
 ## What you built? 
