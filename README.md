@@ -42,8 +42,23 @@ I worked on the project alone.
 
 ## What you learned
 
+I learned a lot about building deep learning models and how to use one in applications once it has been constructed. This program was an effective introduction into keras and tensorflow. I also did not know anything about GUI programming in Python, and the tutorial did a good job of getting me started.
+
+### What worked?
+
+The model ran well and the computation was relatively fast. It also seemed to be picking up the right tag each time the app was run.
+
+The GUI lagged had a small lag when the first user question was sent but there were no problems after that. Not entirely sure why that keeps happening in every run.
+
+The model also worked within the scope of medicine. For example, the bot would say that the question is out of the mandate of its function if a user inputs "what is the weather today?".
+
+### What didn't work?
+
 a) The responses are chosen randomly from the output class. The problem with this approach is that a user could say "Hi, how are you?" and the bot would output "Hello, thanks for asking.". Which doesn't make any sense.
-b)
+
+b) The GUI was very plain. tkinter does not allow for a lot of customization and it shows in the GUI. Since I learned how to create a deep learning model that could be used in applications, I believe that I could simply have a react / react native frontend. [This tutorial](https://www.tensorflow.org/js/tutorials/conversion/import_keras) shows how a keras model can be incorporated with react using tensorflow.js.
+
+c) The depth of the corpus is incredibly limited. For example, when a user inputs "blood pressure check" the bot simply responds with "switching to blood pressure module". There is no detailed information provided. This is because the responses in intents.json is very short. There's two options here: manually add responses to the file or rely on other corpuses - possibly online. 
 
 ## Authors
 
@@ -51,5 +66,4 @@ I was the author of this project.
 
 ## Acknowledgments
 
-This project is based on the following tutorial: https://data-flair.training/blogs/python-chatbot-project/
-I had some experience in Python and machine learning so some of the code was done based on my intuition. However, I was guided by the tutorial and the code for the GUI is from the tutorial.
+This project is based on the [following tutorial](https://data-flair.training/blogs/python-chatbot-project/).  I had some experience in Python and machine learning so some of the code was done based on my intuition. However, I was guided by the tutorial and the code for the GUI is from the tutorial.
