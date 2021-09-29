@@ -67,7 +67,7 @@ I worked on the project alone.
 
 I learned a lot about building deep learning models and how to use one in applications once it has been constructed. This program was an effective introduction into keras and tensorflow. I also did not know anything about GUI programming in Python, and the tutorial did a good job of getting me started.
 
-### What worked?
+#### What worked?
 
 The model ran well and the computation was relatively fast. It also seemed to be picking up the right tag each time the app was run.
 
@@ -75,7 +75,7 @@ The GUI lagged had a small lag when the first user question was sent but there w
 
 The model also worked within the scope of medicine. For example, the bot would say that the question is out of the mandate of its function if a user inputs "what is the weather today?".
 
-### What didn't work?
+#### What didn't work?
 
 a) The responses are chosen randomly from the output class. The problem with this approach is that a user could say "Hi, how are you?" and the bot would output "Hello, thanks for asking.". Which doesn't make any sense.
 
