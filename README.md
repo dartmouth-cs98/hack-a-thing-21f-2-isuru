@@ -22,7 +22,11 @@ Each object in the intents.json file consists of potential questions that a user
 ```
 The patterns form the corpus for the deep learning model I will touch on in a second. The corpus is written into a pickle file - words.pkl. The tags form the classes for the model and is saved as classes.pkl.
 
-[Here is some information on the corpus](docs/corpus.png)
+Here is some information on the corpus:
+
+[corpus]
+
+[corpos]: docs/corpus.png
 
 #### The model:
 
@@ -30,7 +34,11 @@ The LTSM model is essentially a classification model. It takes tokenized, proces
 
 The model technically achieved a 100% accuracy after being trained on 200 epochs.
 
-[Here is some information on the model](docs/model.png)
+Here is some information on the model:
+
+[model]
+
+[model]: docs/model.png
 
 #### The GUI:
 
@@ -42,9 +50,12 @@ Run the following command in the terminal or on VS Code.
 
 ```
 bash bot_run.sh
-
 ```
-[This is what the app looks like](docs/app.png)
+This is what the app looks like:
+
+[app]
+
+[app]: docs/app.png
 
 
 
