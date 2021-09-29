@@ -61,7 +61,7 @@ Here is the performance of the app from a more buggy run:
 
 ![alt text][app]
 
-[app2]: docs/app.png
+[app]: docs/app.png
 
 ## Who Did What?
 
