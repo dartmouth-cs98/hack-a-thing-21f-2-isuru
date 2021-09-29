@@ -53,11 +53,15 @@ bash bot_run.sh
 ```
 This is what the app looks like:
 
+![alt text][app2]
+
+[app2]: docs/app2.png
+
+Here is the performance of the app from a more buggy run:
+
 ![alt text][app]
 
-[app]: docs/app.png
-
-
+[app2]: docs/app.png
 
 ## Who Did What?
 
