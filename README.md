@@ -7,6 +7,8 @@ This project attempted to build a functional chatbot that could respond to medic
 
 ### How it works?
 
+#### The corpus:
+
 Each object in the intents.json file consists of potential questions that a user may ask and a group of responses to those questions that is grouped under a theme. The following below is a trimmed version of the intents.json file. 
 
 ```
@@ -20,21 +22,31 @@ Each object in the intents.json file consists of potential questions that a user
 ```
 The patterns form the corpus for the deep learning model I will touch on in a second. The corpus is written into a pickle file - words.pkl. The tags form the classes for the model and is saved as classes.pkl.
 
-#### The model
+[Here is some information on the corpus](docs/corpus.png)
+
+#### The model:
 
 The LTSM model is essentially a classification model. It takes tokenized, processed patterns and outputs a certain tag or class of responses. Helper functions in the invoked in chatapp.py uses the intents.json file to find the group of responses that match the class that the model outputs. A response is then picked randomly from this group and is output in the GUI.
 
 The model technically achieved a 100% accuracy after being trained on 200 epochs.
 
-#### The GUI
+[Here is some information on the model](docs/model.png)
+
+#### The GUI:
 
 The GUI uses tkinter - a python library. It is a very simple GUI that logs the entire conversation that the user has with the bot.
 
-Here are a few screenshots of the application:
+### Running the application
+
+Run the following command in the terminal or on VS Code.
+
+```
+bash bot_run.sh
+
+```
+[This is what the app looks like](docs/app.png)
 
 
-Include some screenshots.
-[How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
 
 ## Who Did What?
 
